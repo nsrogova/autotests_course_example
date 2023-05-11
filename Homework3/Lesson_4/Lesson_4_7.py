@@ -7,8 +7,8 @@ def move_zeros(lst):
         lst.remove(0)
         lst.append(0)
     return lst
-# Ниже НИЧЕГО НЕ НАДО ИЗМЕНЯТЬ
 
+# Ниже НИЧЕГО НЕ НАДО ИЗМЕНЯТЬ
 
 data = [
     [1, 2, 0, 1, 0, 1, 0, 3, 0, 1],

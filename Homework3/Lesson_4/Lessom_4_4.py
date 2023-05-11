@@ -18,7 +18,6 @@ def multiplication_chain(num):
         count_multy = count_multy + 1
     return count_multy
 
-
 #return count_multy
 
 # Ниже НИЧЕГО НЕ НАДО ИЗМЕНЯТЬ
