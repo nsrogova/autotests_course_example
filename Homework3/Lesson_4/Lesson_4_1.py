@@ -15,7 +15,8 @@ def which_triangle(a, b, c):
         type_triangle = 'Обычный'
     return type_triangle
 
-# Ниже НИЧЕГО НЕ НАДО
+
+# Ниже НИЧЕГО НЕ НАДО МЕНЯТЬ
 
 data = [
     (3, 3, 3),

@@ -17,16 +17,13 @@
 
 def josephus_task(num_people, kill_num):
     spisok = []
-
     for i in range(1, num_people+1):
         spisok.append(i)
-#    print(spisok)
     while len(spisok) > 1:
         for j in range(0, kill_num-1):
             spisok.append(spisok[j])
         del spisok[:kill_num]
     survivor = spisok[0]
-#    print(survivor)
     return survivor
 
 
